@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Web</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/kimskuy.jpg" alt="logo" />
+        <a href="#">Yassir</a>
+      </div>
+
+      <nav class="middle">
+        <a href="#">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Projek</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <div class="extra-nav">
+        <button>anjayy</button>
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Beranda</a></li>
+          <li><a class="nav-link" href="#about">Tentang</a></li>
+          <li><a class="nav-link" href="#skilll">Skill</a></li>
+          <li><a class="nav-link" href="#project">Projek</a></li>
+          <li><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <svg viewBox="0 0 1500 500" data-aos="fade-down">
+            <text x="50%" y="50%" text-anchor="middle">Yassir</text>
+          </svg>
+          <h1 data-aos="zoom-in-up">
+            Front-End Developer dan Back-End Developer <span>XI-RPL 2</span>
+          </h1>
+          <button data-aos="zoom-out"><span>Gaskeunn</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Tentang saya
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="assets/kocak.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>Yassir</h1>
+                <div class="role">
+                  <h2>Front-End dan Back-End Developer</h2>
+                </div>
+              </div>
+              <p>
+                Sebelumnya apa itu Front-End dan Back-End Developer? Front-End
+                adalah bagian dari aplikasi atau situs web yang berinteraksi langsung
+                dengan pengguna. Tugas utama dari front end adalah menampilkan informasi
+                secara visual dan memastikan pengguna dapat berinteraksi dengan aplikasi
+                dengan mudah. Ini melibatkan elemen visual seperti tata letak, warna, 
+                tombol, dan berbagai elemen UI lainnya. <br />
+                <br />
+                Dan Back-end adalah bagian yang bekerja di belakang layar dan mengelola logika,
+                database, dan server aplikasi. Back end bertanggung jawab untuk memproses permintaan 
+                dari front end, mengambil data yang diperlukan dari database, dan mengirimkan respons 
+                kembali ke front end. Dalam aplikasi dinamis, back end adalah tempat data disimpan 
+                dan logika bisnis dijalankan.<br />
+                <br />
+                Lalu bagaimana cara kerja Front-end dan Back-end bersama sama? Jadi saat pengguna berinteraksi dengan 
+                front end (misalnya, mengklik tombol "logout" pada account),
+                permintaan tersebut dikirim ke back end. Back end akan memproses permintaan, 
+                berkomunikasi dengan database kalo perlu, dan mengembalikan data atau status ke front end. 
+                Front end kemudian menampilkan informasi ini kepada pengguna.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skill
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/html5.svg" alt="html" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/css3.svg" alt="css" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/javascript.svg" alt="javascript" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/php.png" alt="php" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/mysql.svg" alt="mysql" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Project
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/blockdash.png" alt="project" />
+
+              <div class="description">
+                <h1>Block Dash</h1>
+                <p>
+                  Block Dash adalah game pertama yang saya buat di kelas 10
+                </p>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/wahyep.png" alt="project" />
+
+              <div class="description">
+                <h1>Wahyep</h1>
+                <p>
+                  Wahyep adalah warung yang hanya menampilkan produk produk
+                  yang ada di warung tersebut dan ketika anda ingin membeli produk
+                  tersebut anda tinggal klik navigasi Hubungi dan akan langsung 
+                  di arahkan ke nomer penjualnya.
+                </p>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/hitam.png" alt="project" />
+
+              <div class="description">
+                <h1>Web Tentang Saya</h1>
+                <p>
+                  Dan web ini adalah web yang saya pakai berisi informasi tentang saya
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Kontak
+          </h1>
+
+          <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+            <div class="input">
+              <input type="text" placeholder="Nama..." />
+              <input type="email" placeholder="Email..." />
+              <input type="number" placeholder="Nomor..." />
+              <input type="text" placeholder="Subjek..." />
+            </div>
+            <textarea name="message" placeholder="Pesan..."></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <img src="assets/kimskuy.jpg" style="border-radius: 50%;" alt="logo" />
+            <a href="">Yassir</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            Hanya sekian yang bisa saya buat dan mungkin masih banyak kekurangannya
+            karena saya masih pemula dan masih belum banyak belajar lagi, dan saya akan
+            mempelajari dunia coding dengan dalam tentunya karena cita cita Saya
+            adalah menjadi seorang programmer.
+          </p>
+
+          <!-- Social Media -->
+          <div class="social-media-container">
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" name="tiktok" type="logo"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon
+                color="#fff"
+                name="facebook-circle"
+                type="logo"
+              ></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+            </div>
+          </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+            <h1>Skill</h1>
+            <ul>
+              <li>
+                <a href="#">HTML</a>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+              </li>
+              <li>
+                <a href="#">JavaScript</a>
+              </li>
+              <li>
+                <a href="#">PHP</a>
+              </li>
+              <li>
+                <a href="#">MySql</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource">
+            <h1>Sosial Media</h1>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/yassirr404/" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@ysirlhkm" target="_blank">TikTok</a>
+              </li>
+              <li>
+                <a href="https://discord.gg/QuwqWgdN" target="_blank">Discord</a>
+              </li>
+              <li>
+                <a href="https://github.com/Yassir-404" target="_blank">Github</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navigation">
+            <h1>Navigasi</h1>
+            <ul>
+              <li>
+                <a href="#">Beranda</a>
+              </li>
+              <li>
+                <a href="#">Tentang</a>
+              </li>
+              <li>
+                <a href="#">Skill</a>
+              </li>
+              <li>
+                <a href="#">Projek</a>
+              </li>
+              <li>
+                <a href="#">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
